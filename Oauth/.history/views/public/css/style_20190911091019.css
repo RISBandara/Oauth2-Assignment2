@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: aqua;
+}
+nav{
+    background-color: brown;
+    padding: 20px 10px;
+}
+
+nav ul{
+max-width: 960px;
+margin: 0 auto;
+padding: 0;
+}
+nav li{
+    list-style-type: none ;
+    display: inline;
+    margin: 0 10px 0 0;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    color: bisque;
+}
+
+main ,header{
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 10px;
+    color: brown;
+}
