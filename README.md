@@ -22,5 +22,5 @@ STEP 2 - Run node service
 $ node app.js
 ```
 
-STEP 3- Open a web browser and navigate to [http://localhost:3000/]/[http://127.0.0.1:3000/] to open this application
+STEP 3- Open a web browser and navigate to [http://localhost:3000/] or [http://127.0.0.1:3000/] to open this application
 
