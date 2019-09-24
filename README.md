@@ -19,7 +19,7 @@ $ npm install
 STEP 2 - Run node service 
 
 ```bash
-$ node app.js
+$ node app.js 
 ```
 
 STEP 3- Open a web browser and navigate to [http://localhost:3000/] or [http://127.0.0.1:3000/] to open this application

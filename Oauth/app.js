@@ -18,8 +18,8 @@ app.use(express.static("public"));
 app.use(morgan('combined'));//HTTP request logger middleware for node.js
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));//arse incoming request bodies 
-//Create a session 6000 milisecond
-app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 6000 },resave: true, saveUninitialized: true }));
+//Create a session 10000 milisecond
+app.use(session({ secret: 'keyboard cat', cookie: { maxAge: 10000 },resave: true, saveUninitialized: true }));
 
  
 app.use(passport.initialize());// Initialize Passport
